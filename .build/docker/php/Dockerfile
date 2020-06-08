@@ -49,6 +49,7 @@ RUN echo "[PHP]" > /usr/local/etc/php/php.ini && \
 
 WORKDIR /app
 
+
 COPY php /usr/local/etc/
 
 CMD ["php-fpm"]
